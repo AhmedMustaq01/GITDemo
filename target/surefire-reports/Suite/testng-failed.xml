@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="AcademicProject.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="ValidateTitle(failed)">
+    <classes>
+      <class name="AcademicProject.NavigateTabs">
+        <methods>
+          <include name="initilizing"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- AcademicProject.NavigateTabs -->
+      <class name="AcademicProject.ValidateTitle">
+        <methods>
+          <include name="pagenavigation"/>
+          <include name="closebrowser"/>
+          <include name="initilizing"/>
+        </methods>
+      </class> <!-- AcademicProject.ValidateTitle -->
+      <class name="AcademicProject.HomePage">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="initilizing"/>
+        </methods>
+      </class> <!-- AcademicProject.HomePage -->
+    </classes>
+  </test> <!-- ValidateTitle(failed) -->
+  <test parallel="tests" name="HomePage(failed)">
+    <classes>
+      <class name="AcademicProject.NavigateTabs">
+        <methods>
+          <include name="initilizing"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- AcademicProject.NavigateTabs -->
+      <class name="AcademicProject.HomePage">
+        <methods>
+          <include name="pagenavigation" invocation-numbers="0 1"/>
+          <include name="closebrowser"/>
+          <include name="initilizing"/>
+        </methods>
+      </class> <!-- AcademicProject.HomePage -->
+      <class name="AcademicProject.ValidateTitle">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="initilizing"/>
+        </methods>
+      </class> <!-- AcademicProject.ValidateTitle -->
+    </classes>
+  </test> <!-- HomePage(failed) -->
+</suite> <!-- Failed suite [Suite] -->

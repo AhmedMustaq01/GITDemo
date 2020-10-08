@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="1" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-02T10:50:43Z" name="Suite" finished-at="2020-10-02T10:51:31Z" duration-ms="48314">
+    <groups>
+    </groups>
+    <test started-at="2020-10-02T10:50:43Z" name="NavigateTabs" finished-at="2020-10-02T10:51:19Z" duration-ms="35902">
+      <class name="AcademicProject.NavigateTabs">
+        <test-method is-config="true" signature="initilizing()[pri:0, instance:AcademicProject.NavigateTabs@21d5c1a0]" started-at="2020-10-02T16:20:43Z" name="initilizing" finished-at="2020-10-02T16:21:15Z" duration-ms="32316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizing -->
+        <test-method signature="NavTab()[pri:0, instance:AcademicProject.NavigateTabs@21d5c1a0]" started-at="2020-10-02T16:21:15Z" name="NavTab" finished-at="2020-10-02T16:21:17Z" duration-ms="1786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavTab -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:AcademicProject.NavigateTabs@21d5c1a0]" started-at="2020-10-02T16:21:17Z" name="closebrowser" finished-at="2020-10-02T16:21:19Z" duration-ms="1788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- AcademicProject.NavigateTabs -->
+    </test> <!-- NavigateTabs -->
+    <test started-at="2020-10-02T10:50:43Z" name="ValidateTitle" finished-at="2020-10-02T10:51:20Z" duration-ms="37366">
+      <class name="AcademicProject.ValidateTitle">
+        <test-method is-config="true" signature="initilizing()[pri:0, instance:AcademicProject.ValidateTitle@6de54b40]" started-at="2020-10-02T16:20:43Z" name="initilizing" finished-at="2020-10-02T16:21:15Z" duration-ms="32316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizing -->
+        <test-method signature="pagenavigation()[pri:0, instance:AcademicProject.ValidateTitle@6de54b40]" started-at="2020-10-02T16:21:15Z" name="pagenavigation" finished-at="2020-10-02T16:21:16Z" duration-ms="897" status="FAIL">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<... COUR...> but was:<...112121 COUR232...>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<... COUR...> but was:<...112121 COUR232...>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at AcademicProject.ValidateTitle.pagenavigation(ValidateTitle.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagenavigation -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:AcademicProject.ValidateTitle@6de54b40]" started-at="2020-10-02T16:21:20Z" name="closebrowser" finished-at="2020-10-02T16:21:20Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- AcademicProject.ValidateTitle -->
+    </test> <!-- ValidateTitle -->
+    <test started-at="2020-10-02T10:50:43Z" name="HomePage" finished-at="2020-10-02T10:51:31Z" duration-ms="48314">
+      <class name="AcademicProject.HomePage">
+        <test-method is-config="true" signature="initilizing()[pri:0, instance:AcademicProject.HomePage@46c670a6]" started-at="2020-10-02T16:20:43Z" name="initilizing" finished-at="2020-10-02T16:21:02Z" duration-ms="19425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizing -->
+        <test-method signature="pagenavigation(java.lang.String, java.lang.String)[pri:0, instance:AcademicProject.HomePage@46c670a6]" started-at="2020-10-02T16:21:03Z" name="pagenavigation" data-provider="getdata" finished-at="2020-10-02T16:21:26Z" duration-ms="23276" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Restricted@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[34534534]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at AcademicProject.HomePage.pagenavigation(HomePage.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagenavigation -->
+        <test-method signature="pagenavigation(java.lang.String, java.lang.String)[pri:0, instance:AcademicProject.HomePage@46c670a6]" started-at="2020-10-02T16:21:26Z" name="pagenavigation" data-provider="getdata" finished-at="2020-10-02T16:21:31Z" duration-ms="4761" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[non_Restricted@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4234234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at AcademicProject.HomePage.pagenavigation(HomePage.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagenavigation -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:AcademicProject.HomePage@46c670a6]" started-at="2020-10-02T16:21:31Z" name="closebrowser" finished-at="2020-10-02T16:21:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- AcademicProject.HomePage -->
+    </test> <!-- HomePage -->
+  </suite> <!-- Suite -->
+</testng-results>

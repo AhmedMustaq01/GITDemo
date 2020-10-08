@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 51.987 s <<< FAILURE! - in TestSuite
+AcademicProject.ValidateTitle.pagenavigation  Time elapsed: 1.141 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<... COUR...> but was:<...112121 COUR232...>
+	at AcademicProject.ValidateTitle.pagenavigation(ValidateTitle.java:38)
+
+AcademicProject.HomePage.pagenavigation[Restricted@gmail.com, 34534534](1)  Time elapsed: 10.553 s  <<< FAILURE!
+java.lang.NullPointerException
+	at AcademicProject.HomePage.pagenavigation(HomePage.java:47)
+
+AcademicProject.HomePage.pagenavigation[non_Restricted@gmail.com, 4234234](2)  Time elapsed: 4.766 s  <<< FAILURE!
+java.lang.NullPointerException
+	at AcademicProject.HomePage.pagenavigation(HomePage.java:47)
+

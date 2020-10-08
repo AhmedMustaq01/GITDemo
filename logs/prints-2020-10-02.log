@@ -1,0 +1,7 @@
+13:24:16.053 [TestNG] INFO  resources.base - Navigated to browser HP
+13:24:21.428 [TestNG] INFO  resources.base - Navigated to browser HP
+16:21:02.882 [TestNG] INFO  resources.base - Driver is initilized HP
+16:21:02.882 [TestNG] INFO  resources.base - Driver is initilized Title
+16:21:02.882 [TestNG] INFO  resources.base - Driver is initilized NavTab 
+16:21:15.869 [TestNG] INFO  resources.base - Navigated to browser HP
+16:21:15.869 [TestNG] INFO  resources.base - Navigated to browser NavTab
