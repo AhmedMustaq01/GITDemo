@@ -41,6 +41,24 @@ public class ValidateTitle extends base {
 		log.info("Validated text message from the page Title");
 
 	}
+	@Test
+	public void getdevelop4()
+	{
+		System.out.println("Develop4");
+	}
+	
+	@Test
+	public void getdevelop5()
+	{
+		System.out.println("Develop5");
+	}
+	
+	@Test
+	public void getdevelop6()
+	{
+		System.out.println("Develop6");
+	}
+
 	
 	@Test
 	public void getdevelop1()

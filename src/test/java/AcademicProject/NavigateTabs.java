@@ -38,6 +38,7 @@ public class NavigateTabs extends base{
 		
 	}
 	@Test
+
 	public void getdevelop1()
 	{
 		System.out.println("Develop1");
@@ -54,6 +55,27 @@ public class NavigateTabs extends base{
 	{
 		System.out.println("Develop3");
 	}
+
+	public void getdevelop4()
+	{
+		System.out.println("Develop4");
+	}
+	
+	@Test
+	public void getdevelop5()
+	{
+		System.out.println("Develop5");
+	}
+	
+	@Test
+	public void getdevelop6()
+	{
+		System.out.println("Develop6");
+	}
+
+	
+	
+
 	@AfterTest
 	public void closebrowser()
 	{
