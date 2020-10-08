@@ -67,6 +67,25 @@ public class base {
 		System.out.println("This GIT Testing");
 		System.out.println("This GIT Testing");
 	}
+	
+	public void dummy2()
+	{
+		
+		System.out.println("This GIT Testing");
+		System.out.println("This GIT Testing");
+		System.out.println("This GIT Testing");
+		System.out.println("This GIT Testing");
+		System.out.println("This GIT Testing");
+	}
+	public void dummy3()
+	{
+		
+		System.out.println("This GIT Testing");
+		System.out.println("This GIT Testing");
+		System.out.println("This GIT Testing");
+		System.out.println("This GIT Testing");
+		System.out.println("This GIT Testing");
+	}
 
 
 }
