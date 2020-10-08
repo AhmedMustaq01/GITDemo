@@ -52,6 +52,24 @@ public class HomePage extends base {
 		
 		
 	}
+	
+	@Test
+	public void getdevelop1()
+	{
+		System.out.println("Develop1");
+	}
+	
+	@Test
+	public void getdevelop2()
+	{
+		System.out.println("Develop2");
+	}
+	
+	@Test
+	public void getdevelop3()
+	{
+		System.out.println("Develop3");
+	}
 
 	@DataProvider
 	public Object[][] getdata() {
